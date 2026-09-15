@@ -91,6 +91,8 @@ pure-tune-studio/
 - Suno 生成前会把 More Options 里的 Variety 滑条设为 off。
 - The JianYing step is currently tested mainly on Windows.
 - 剪映步骤目前主要在 Windows 环境测试。
+- JianYing 10.8 can generate drafts. Automatic export requires JianYing 6 or earlier; this skill only generates the draft and asks the user to export manually.
+- 剪映 10.8 可以生成草稿；自动导出需要剪映 6 及以下版本。本技能只负责生成草稿，导出由用户手动完成。
 
 If this project is useful, feel free to give it a Star ⭐.
 如果你觉得这个项目有用，欢迎点个 Star ⭐。

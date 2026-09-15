@@ -61,8 +61,8 @@ Copy rules / 文案规则：
    所有文件按参考曲文件夹整理。由该参考曲分析出的提示词，以及这些提示词生成的歌曲，都放在该参考曲文件夹下。参见 `references/layout.md`。
 9. Prepare the background image according to the startup answer.
    根据启动前确认的结果准备背景图。
-10. Generate a JianYing draft using the shared template layout, including text color, border, shadow, line spacing, scale, and indicator positions.
-    使用共享模板版式生成剪映草稿，包括文字颜色、描边、阴影、行距、缩放和指示器位置。
+10. Generate a JianYing draft using the shared template layout, including text color, border, shadow, line spacing, scale, and indicator positions. JianYing 10.8 is sufficient for draft generation; automatic export requires JianYing 6 or earlier, so stop at draft generation and let the user export manually.
+    使用共享模板版式生成剪映草稿，包括文字颜色、描边、阴影、行距、缩放和指示器位置。剪映 10.8 足以生成草稿；自动导出需要剪映 6 及以下版本，所以技能只生成草稿，让用户手动导出。
 11. Write titles, copy, and tags for Bilibili, Douyin, and Xiaohongshu from the draft's real timestamps.
     从剪映草稿的真实时间戳生成 B站、抖音、小红书标题、正文和标签。
 12. The user manually exports from JianYing and publishes.
@@ -78,6 +78,8 @@ Copy rules / 文案规则：
   提示词必须保留原始格式，同时转成 Markdown。
 - Do not package or reuse personal copywriting styles from the user's existing projects.
   不要打包或复用用户已有项目中的个人文案风格。
+- JianYing 10.8 supports draft generation; automatic export requires JianYing 6 or earlier. Do not attempt automatic export on 10.8.
+  剪映 10.8 支持草稿生成；自动导出需要剪映 6 及以下版本。不要在 10.8 上尝试自动导出。
 
 ## Scripts and references / 脚本与参考资料
 

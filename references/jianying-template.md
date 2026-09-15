@@ -1,5 +1,7 @@
 # JianYing Draft Template
 
+Version note: draft generation works with JianYing 10.8. Automatic export is not supported on JianYing 7 or later; it requires JianYing 6 or earlier. This skill stops at draft generation and asks the user to export manually.
+
 The draft generator must reuse the shared layout template, including:
 
 - Canvas: 1920x1080 at 30 fps
